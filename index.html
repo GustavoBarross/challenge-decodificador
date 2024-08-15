@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge | Alura</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Inter:ital,opsz@0,14..32;1,14..32&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/Vector-icon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+
+            <img class="navbar_logo" src="imagens/logo.png" alt="Logo Alura com participação do desenvolvedor Guga">
+
+    </header>
+
+    <main class="conteudo">
+
+        <section>
+
+            <textarea class="conteudo_campo_digitar"  rows="4" cols="41"
+                placeholder="Digite seu texto"></textarea>
+
+            <div class="conteudo_informacao">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+
+            <div class="conteudo_botoes">
+
+                <button class="conteudo_botoes_criptografar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="conteudo_botoes_descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+    
+            </div>
+
+        </section>
+     
+
+        <section>
+            
+            <textarea class="conteudo_resposta" cols="20" rows="10" readonly></textarea>
+            <button id="btnCopiar" class="conteudo_botao_copiar" onclick="btnCopiar()">Copiar</button>
+
+            <div id="popup" class="popup">Texto copiado!</div>
+
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+
+            <p class="rodape_titulo">by Gustavo Barros</p>
+
+            <a href="https://www.linkedin.com/in/gustavobarross/" target="_blank"><img class="rodape_icon" src="imagens/linkedin.png" alt="Ícone LinkedIn"></a>
+            
+            <a href="https://www.instagram.com/baarrozz/"target="_blank"><img class="rodape_icon" src="imagens/insta.png" alt="Ícone Instagram"></a>
+            
+            <a href="https://github.com/GustavoBarross"target="_blank"> <img class="rodape_icon" src="imagens/git.png" alt="Ícone Github"></a>
+           
+
+    </footer>
+
+    <script src="app.js" defer></script>
+
+</body>
+
+</html>
